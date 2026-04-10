@@ -1,0 +1,23 @@
+{
+  "authority": "www.newhomesource.com",
+  "method": "GET",
+  "path": "/condos-townhomes/tx/austin-area",
+  "scheme": "https",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+  "accept-encoding": "gzip, deflate, br, zstd",
+  "accept-language": "en-US,en;q=0.9",
+  "cache-control": "max-age=0",
+  "cookie": "_gcl_au=1.1.2086614695.1772748848; _fbp=fb.1.1772748874434.303861956217557789; ajs_anonymous_id=291e03cd-2567-437f-acc5-8066974f0e04; _pxvid=da84dc74-18e2-11f1-a1cb-70e017af8e12; _vwo_uuid_v2=D1DCADCCAD936B09D6422E0EC2E9C59AF|3fdf233a3eb97a8a76e40368713c457e; _vwo_uuid=D1DCADCCAD936B09D6422E0EC2E9C59AF; zukoVisitorId=zKB0luscb0XPNBH7cXQpnpqRib7XuEJz; zukoVisitorId-5c4040b44942fdc2=zKB0luscb0XPNBH7cXQpnpqRib7XuEJz; _gu=ec7903e2-5117-4fce-a33a-d36515901253; _gw=2.527572(sc~1%2Cs~tc2emy)u%5Bnhs_autoemail_campaign%2Cemail%2C%2Cnhs_newhomesinsider_new_community_card%2Cnhs_autoemail_newhomesinsider%5Dv%5B~hlnsa%2C~0%2C~1%5Da(); _gid=GA1.2.289082050.1774301795; _pxhd=84b697dc6bb7387b970ccec4d6c2285b5d119d938b1b632ece2fb372f3bf8796:6c962e63-27cb-11f1-a44f-7c706af051be; _vis_opt_s=11%7C; _vis_opt_test_cookie=1; _clck=lw3i6g^2^g4n^0^2255; ASP.NET_SessionId=nqddg5r2ugdv3v3qarlaazyz; pxcts=50c0e700-287e-11f1-b186-76fcb275cfe5; _vwo_ds=3%241772810447%3A2.20644219%3A%3A%3A%3A%3A1774465845%3A1774455139%3A23; _ga_2QC62YLCK4=GS2.1.s1774466471$o4$g1$t1774466486$j45$l0$h1319913950; _ga_ETWY269DZW=GS2.1.s1774466661$o55$g1$t1774466663$j58$l0$h0; __utmz=utmauid=,utmasid=,utmgclid=,utmccn=,utmcmd=(none),utmctr=,utmcct=,utmcsr=(direct),httprefer=,refer=,nhsentranceurl=https://pr.newhomesource.com/communities/tx/austin-area,havevalues=True; Personal_1=market=269&state=TX&searchtext=Austin%2c+TX+Area; _ga=GA1.2.2070457271.1772748870; g_state={\"i_l\":0,\"i_ll\":1774467687876,\"i_b\":\"c8ZQxxeAEopYlXKsPkh19MIwOANeaVZiymJo8jJeDu8\",\"i_e\":{\"enable_itp_optimization\":15}}; _rdt_uuid=1772748872320.88aee688-e7bf-448d-9f09-c05de02acc32; _uetsid=5f174ad0270011f1a5d8f13a17321588; _uetvid=b08b0b7018e011f1afdbe9fefeb3c005; _clsk=qs90go^1774467688495^26^1^b.clarity.ms/collect; _ga_9Q6M7QQCH6=GS2.1.s1774469889$o23$g0$t1774469889$j60$l0$h754177712; _px3=e20180cea72f190a2d88427db3013bf8b7b9fc1aa4acc59cf903a6e08af434f2:vIlLEYmvbz2TfjyVLsfGjSpg23z0WJbePMOT0zpnYfq2Juj5yhgRqGxRwswLI1ezbk4xZTcNBXGYponT6SFtPQ==:1000:6Lz7Xp4Wu4iu2CulBrwLg1aguNpq5gSSq63nHjx2vOZQHIiYPwhHBqjAztcC8Cv00ujds+9/QiVSduTG2s8oRvLoW5KBPoJ3weLJmjKz8l3aNurCcqxKjzj9yAaMsCWiYY6wsn40vfW1KEP2Xj/aE9z8S5cBg8SATQPoDxz6h8EHjeCCXXjVc8douPqBj374Fugv4vw39C0alotpsPgaHNLQvaHFijus6stwXMqv8sLNePZrjyh1EBm7W5tCwHHSfZJ7MTLnK4QmlVRwB5bpijMI0QOKyo2+ppffcSpwoehGD/UNkQIVzfFcGA5p01o7oHBf5vlb7GP+8ZP0ZJSPDTYI6QiT4MF+Y9cO3NlUesDyR+yneJFAfr+QxrZjC3+8FxVCmtQ1ZMd/tfZmnhoJRKueJb/Jba+ozMJ1hDdIGfqX7b9itG6Qhvo2Zsihc7fC264kAsmSRUTJRTRw+bsnvsFbStv+5e6HMO2RBlzQE7mFHSfZh3be1yqX5XqV1l5+83FEZGK8ja6uGIgqWd0g3G508CvUBTgm8iE4QKOhtdwg8Dl/o8JqdB7+m+40di47",
+  "priority": "u=0, i",
+  "referer": "https://www.newhomesource.com/condos-townhomes/tx/austin-area",
+  "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-model": "\"\"",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "sec-ch-ua-platform-version": "19.0.0",
+  "sec-fetch-dest": "document",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-site": "same-origin",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+}

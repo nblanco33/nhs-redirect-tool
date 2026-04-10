@@ -1,0 +1,331 @@
+[
+    {
+        "original_url": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area",
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area#home-listings",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area",
+                "to": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area#home-listings",
+                "matched_rule": {
+                    "name": "Redirect /homes/ to /communities/ (no query)",
+                    "stopProcessing": true,
+                    "match": "^homes/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/communities/{R:1}#home-listings",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /homes/ to /communities/ (no query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "http://www.newhomesource.com/learn/first-time-buyers",
+        "final_url": "https://www.newhomesource.com/learn/first-time-buyers/",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 302,
+                "from": "http://www.newhomesource.com/learn/first-time-buyers",
+                "to": "https://www.newhomesource.com/learn/first-time-buyers/",
+                "matched_rule": {
+                    "name": "TrailingSlashSubLandingAndArticlesRedirect",
+                    "stopProcessing": true,
+                    "match": "^(.*)(learn|news|author)\\/([^\\/\\?]+)(\\/[^\\/\\?]+)?(\\?[^&]*)?$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/{R:1}{R:2}/{R:3}{R:4}/",
+                    "redirectType": "Found",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{REQUEST_URI}",
+                            "pattern": "\\.xml$",
+                            "negate": true
+                        },
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": "(^|&)previewmode=true(&|$)",
+                            "negate": true
+                        },
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": "(^|&)(searchTerm|categories)=[^&]*(&|$)",
+                            "negate": true
+                        },
+                        {
+                            "input": "{REQUEST_URI}",
+                            "pattern": "\\/dynamic\\/",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "TrailingSlashSubLandingAndArticlesRedirect",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area?bath=1&bed=1",
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area?bath=1&bed=1#home-listings",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area?bath=1&bed=1",
+                "to": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area?bath=1&bed=1#home-listings",
+                "matched_rule": {
+                    "name": "Redirect /homes/ to /communities/ (with query)",
+                    "stopProcessing": true,
+                    "match": "^homes/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/communities/{R:1}?{QUERY_STRING}#home-listings",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": false
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /homes/ to /communities/ (with query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/manufactured/fl/sarasota-bradenton-area",
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/manufactured/fl/sarasota-bradenton-area",
+                "to": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area",
+                "matched_rule": {
+                    "name": "ManufacturedResultsRedirect",
+                    "stopProcessing": true,
+                    "match": "^(manufactured|manufactured-homes)/(.*)",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/communities/{R:2}",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": []
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "ManufacturedResultsRedirect",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/single-family-communities/tx/austin-area",
+        "final_url": "https://www.newhomesource.com/single-family/tx/austin-area",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/single-family-communities/tx/austin-area",
+                "to": "https://www.newhomesource.com/single-family/tx/austin-area",
+                "matched_rule": {
+                    "name": "Redirect /single-family-communities/ to /single-family/ (no query)",
+                    "stopProcessing": true,
+                    "match": "^single-family-communities/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/single-family/{R:1}",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /single-family-communities/ to /single-family/ (no query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/single-family-homes/tx/austin-area",
+        "final_url": "https://www.newhomesource.com/single-family/tx/austin-area#home-listings",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/single-family-homes/tx/austin-area",
+                "to": "https://www.newhomesource.com/single-family/tx/austin-area#home-listings",
+                "matched_rule": {
+                    "name": "Redirect /single-family-homes/ to /single-family/ (no query)",
+                    "stopProcessing": true,
+                    "match": "^single-family-homes/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/single-family/{R:1}#home-listings",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /single-family-homes/ to /single-family/ (no query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/condo-townhomes/tx/austin-area",
+        "final_url": "https://www.newhomesource.com/condos-townhomes/tx/austin-area#home-listings",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/condo-townhomes/tx/austin-area",
+                "to": "https://www.newhomesource.com/condos-townhomes/tx/austin-area#home-listings",
+                "matched_rule": {
+                    "name": "Redirect /condo-townhomes/ to /condos-townhomes/ (no query)",
+                    "stopProcessing": true,
+                    "match": "^condo-townhomes/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/condos-townhomes/{R:1}#home-listings",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /condo-townhomes/ to /condos-townhomes/ (no query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "original_url": "https://www.newhomesource.com/condo-developments/tx/austin-area",
+        "final_url": "https://www.newhomesource.com/condos-townhomes/tx/austin-area",
+        "total_redirects": 1,
+        "redirect_chain": [
+            {
+                "step": 1,
+                "status": 301,
+                "from": "https://www.newhomesource.com/condo-developments/tx/austin-area",
+                "to": "https://www.newhomesource.com/condos-townhomes/tx/austin-area",
+                "matched_rule": {
+                    "name": "Redirect /condo-developments/ to /condos-townhomes/ (no query)",
+                    "stopProcessing": true,
+                    "match": "^condo-developments/(.*)$",
+                    "actionType": "Redirect",
+                    "actionUrl": "https://{HTTP_HOST}/condos-townhomes/{R:1}",
+                    "redirectType": "Permanent",
+                    "appendQueryString": false,
+                    "trackAllCaptures": false,
+                    "conditions": [
+                        {
+                            "input": "{QUERY_STRING}",
+                            "pattern": ".+",
+                            "negate": true
+                        }
+                    ]
+                },
+                "confidence": 1.0,
+                "candidates": [
+                    {
+                        "rule_name": "Redirect /condo-developments/ to /condos-townhomes/ (no query)",
+                        "regex_match": true,
+                        "action_match": true,
+                        "conditions_match": true,
+                        "confidence": 1.0
+                    }
+                ]
+            }
+        ]
+    }
+]

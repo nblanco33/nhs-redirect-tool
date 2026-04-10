@@ -1,0 +1,122 @@
+[
+    {
+        "url": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area",
+        "total_redirects": 1,
+        "total_time_ms": 980,
+        "final_hop_time_ms": 532,
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area#home-listings",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area#home-listings",
+                "hop_time_ms": 448
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "http://www.newhomesource.com/learn/first-time-buyers",
+        "total_redirects": 1,
+        "total_time_ms": 1384,
+        "final_hop_time_ms": 1099,
+        "final_url": "https://www.newhomesource.com/learn/first-time-buyers/",
+        "redirects": [
+            {
+                "status": 302,
+                "location": "https://www.newhomesource.com/learn/first-time-buyers/",
+                "hop_time_ms": 285
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/homes/fl/sarasota-bradenton-area?bath=1&bed=1",
+        "total_redirects": 1,
+        "total_time_ms": 1424,
+        "final_hop_time_ms": 1022,
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area?bath=1&bed=1#home-listings",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area?bath=1&bed=1#home-listings",
+                "hop_time_ms": 402
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/manufactured/fl/sarasota-bradenton-area",
+        "total_redirects": 1,
+        "total_time_ms": 968,
+        "final_hop_time_ms": 502,
+        "final_url": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/communities/fl/sarasota-bradenton-area",
+                "hop_time_ms": 466
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/single-family-communities/tx/austin-area",
+        "total_redirects": 1,
+        "total_time_ms": 1652,
+        "final_hop_time_ms": 1248,
+        "final_url": "https://www.newhomesource.com/single-family/tx/austin-area",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/single-family/tx/austin-area",
+                "hop_time_ms": 404
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/single-family-homes/tx/austin-area",
+        "total_redirects": 1,
+        "total_time_ms": 1435,
+        "final_hop_time_ms": 1026,
+        "final_url": "https://www.newhomesource.com/single-family/tx/austin-area#home-listings",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/single-family/tx/austin-area#home-listings",
+                "hop_time_ms": 409
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/condo-townhomes/tx/austin-area",
+        "total_redirects": 1,
+        "total_time_ms": 4356,
+        "final_hop_time_ms": 3927,
+        "final_url": "https://www.newhomesource.com/condos-townhomes/tx/austin-area#home-listings",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/condos-townhomes/tx/austin-area#home-listings",
+                "hop_time_ms": 429
+            }
+        ],
+        "error": null
+    },
+    {
+        "url": "https://www.newhomesource.com/condo-developments/tx/austin-area",
+        "total_redirects": 1,
+        "total_time_ms": 1284,
+        "final_hop_time_ms": 891,
+        "final_url": "https://www.newhomesource.com/condos-townhomes/tx/austin-area",
+        "redirects": [
+            {
+                "status": 301,
+                "location": "https://www.newhomesource.com/condos-townhomes/tx/austin-area",
+                "hop_time_ms": 393
+            }
+        ],
+        "error": null
+    }
+]
