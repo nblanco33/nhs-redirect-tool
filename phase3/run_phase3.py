@@ -1,7 +1,10 @@
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 from .matcher import match_rule
 
 from utils.file_utils import read_json_file, write_json_file
+
+BASE_SCHEME = "https"
+BASE_NETLOC = "www.newhomesource.com"
 
 
 def extract_root(path: str) -> str | None:
@@ -95,7 +98,17 @@ def run_phase3():
             hop_status = hop["status"]
             destination_url = hop["location"]
 
-            parsed_destination_url = urlparse(destination_url)
+            parsed = urlparse(destination_url)
+            normalized_url = urlunparse((
+                BASE_SCHEME,
+                BASE_NETLOC,
+                parsed.path or "",
+                parsed.params or "",
+                parsed.query or "",
+                parsed.fragment or ""
+            ))
+
+            parsed_destination_url = urlparse(normalized_url)
 
             # Extract root from destination (more accurate per hop)
             root = extract_root(previous_hop_url.path)
