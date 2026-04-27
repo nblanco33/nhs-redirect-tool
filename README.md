@@ -26,14 +26,10 @@ nhs-redirect-tool/
 │
 ├── phase1/                 # Redirect discovery
 │   ├── analyzer.py
-│   ├── reader.py
-│   └── writer.py
 │
 ├── phase2/                 # Rewrite rules processing
-│   ├── xml_loader.py
 │   ├── xml_parser.py
 │   ├── json_builder.py
-│   └── writer.py
 │
 ├── phase3/                 # Matching engine
 │   ├── run_phase3.py
