@@ -59,7 +59,7 @@ def run_phase3():
     root_index = phase2_data.get("rootIndex", {})
     rules_without_root = phase2_data.get("noRootRules", [])
 
-    # ------------------------------------------------------------------
+    # -----------------------------------------------------------------
     # Debug visibility
     # ------------------------------------------------------------------
     print("\nRoot index loaded:")
@@ -77,6 +77,7 @@ def run_phase3():
 
         original_url = entry["url"]
         final_url = entry["final_url"]
+        total_time_ms = entry["total_time_ms"]
 
         parsed_original_url = urlparse(original_url)
 
@@ -97,6 +98,7 @@ def run_phase3():
 
             hop_status = hop["status"]
             destination_url = hop["location"]
+            hop_time_ms = hop["hop_time_ms"]
 
             parsed = urlparse(destination_url)
             normalized_url = urlunparse((
@@ -153,7 +155,8 @@ def run_phase3():
                         "regex_match": regex_match,
                         "action_match": action_match,
                         "conditions_match": conditions_match,
-                        "confidence": confidence
+                        "confidence": confidence,
+                        "hop_time_ms": hop_time_ms
                     })
 
                 # Early exit ONLY for rule evaluation (not chain)
@@ -206,7 +209,8 @@ def run_phase3():
             "original_url": original_url,
             "final_url": final_url,
             "total_redirects": len(entry["redirects"]),
-            "redirect_chain": redirect_chain_output
+            "redirect_chain": redirect_chain_output,
+            "total_time_ms": total_time_ms
         })
 
     # ------------------------------------------------------------------
